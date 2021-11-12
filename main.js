@@ -3,9 +3,16 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+const likeIcon = document.querySelector("#like-glyph")
 
+likeIcon.addEventListener("click", myFunction);
 
-
+function myFunction() {
+  alert ("Hello World!");
+}
+// function updateLike() {
+//   console.log ("I've been clicked!")
+// }
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
